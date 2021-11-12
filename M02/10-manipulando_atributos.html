@@ -12,7 +12,12 @@
 
     <body>
 
-        <img src="/Images/cachorro.jpg" alt="Dog Photo">
+        <img src="../Images/dog.jpg" data-animal="dog" class="imagem"> <br>
+
+        <button onclick="trocarImagem('dog.jpg', 'Dog')">Dog</button>
+        <button onclick="trocarImagem('cat.jpg', 'Cat')">Cat</button>
+
+        <button onclick="pegarAnimal()">Qual é o animal?</button>
         
         <script type="text/javascript" src="10-manipulando_atributos.js"></script>
         
