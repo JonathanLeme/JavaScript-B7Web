@@ -63,6 +63,3 @@ document.querySelector('.texto').scrollTo();
 window.scrollTo();
 
 /*  */
-
-
-
