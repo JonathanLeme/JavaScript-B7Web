@@ -16,5 +16,4 @@ Função de string apresentadas:
 
 "parseFloat(n)" Transforma 'n' em um número e preserva os decimais se houver.
 
-
 */
