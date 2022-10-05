@@ -20,10 +20,10 @@ console.log ("Hello World 3.0")
 */
 
 let estado = "Natal-RN"
-let cidade = "Macaíba"
+let city = "Macaíba"
 
 console.log (estado)
-console.log (cidade)
+console.log (city)
 
 /* *AULA 06 - Tipos de Dados */
 
@@ -50,3 +50,36 @@ let nomeCOmpleto = {nome: "Jonathan", idade: 90 }
 /* O código abaixo é usado para verifica o tipo de dado. */
 
 console.log(typeof nome) /* usei o "nome" como exemplo. */
+
+/* AULA 08 - Exercício */
+
+let nomeDoCarro = "Ferrari"
+let precoDoBolo = 19.99
+let cidade = "São Paulo"
+
+console.log (nomeDoCarro)
+console.log (precoDoBolo)
+console.log (cidade)
+
+/* 
+    *AULA 09 - Ponto e Vírgula (;) 
+    - Usada para definir o fim de uma linha de código.
+    - Não é obrigatório usar. Alguns usam outros não.
+    - Mas caso queira digitar duas linhas de código na mesma linha será obrigatório. Exemplo:
+
+    let nomeDoCarro = "Ferrari"; let precoDoBolo = 19.99;
+*/
+
+/* 
+    *AULA 10 - let, var e cont
+    - "let"
+    - "var"
+    - "const"
+*/
+
+/* AULA 11 - Operações em Variáveis */
+
+/* AULA 12 - String e Templates String */
+
+
+ 
