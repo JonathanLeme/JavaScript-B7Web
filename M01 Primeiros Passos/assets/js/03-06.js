@@ -79,7 +79,5 @@ console.log (cidade)
 
 /* AULA 11 - Operações em Variáveis */
 
-/* AULA 12 - String e Templates String */
-
 
  
