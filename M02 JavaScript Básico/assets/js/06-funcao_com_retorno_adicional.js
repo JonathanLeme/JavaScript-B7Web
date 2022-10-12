@@ -12,5 +12,5 @@ let verificacao = maiorDeIdade(idade);
 if (verificacao) {
     console.log('É maior de idade.');
 } else {
-    console.log('É menor de idade.')
+    console.log('É menor de idade.');
 }
