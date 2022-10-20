@@ -41,5 +41,3 @@ fruits[2] = 'Pêra'
 console.log(`Total de Frutas são: ${fruits.length}`);
 
 console.log(fruits);
-
-
