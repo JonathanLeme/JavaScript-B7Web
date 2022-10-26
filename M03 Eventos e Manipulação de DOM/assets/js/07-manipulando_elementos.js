@@ -1,4 +1,4 @@
-// "after" and "before"
+// "before" and "after" usado para adicionar texto/elemento 'antes' e 'depois'.
 
     function clicou() {
         const teste = document.querySelector('#teste1');
