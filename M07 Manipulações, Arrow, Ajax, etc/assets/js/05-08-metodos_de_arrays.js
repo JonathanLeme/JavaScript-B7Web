@@ -1,9 +1,3 @@
-let lista = ['Farinha', 'Ovo', 'Leite', 'Fermento'];
-
-let resultado1 = lista;
-
-console.log(resultado1);
-
 // METÓDOS DE ARRAYS AULA 01
 
 /* 
@@ -36,7 +30,15 @@ console.log(resultado1);
     "?.reverse()" usado para reverte a lista de trás para frente.
 */
 
+let lista = ['Farinha', 'Ovo', 'Leite', 'Fermento'];
+
+let resultado1 = lista;
+
+console.log(resultado1);
+
 // METÓDOS DE ARRAYS AULA 03
+
+// "map" usado para mapear item a item e gerar uma novo array. Veja no 'console' do navegador. ;)
 
 let lista1 = [45, 4, 9, 16, 25];
 let lista2 = []
@@ -49,7 +51,7 @@ let resultado2 = lista2;
 
 console.log(resultado2)
 
-// "map" usado para mapear item a item e gerar uma novo array.
+// "?.filter" usado para filtrar. Perceba no exemplo abaixo e no 'console'.
 
 let lista3 = [45, 4, 9, 16, 25];
 let lista4 = []
@@ -66,14 +68,20 @@ let resultado3 = lista4;
 
 console.log(resultado3)
 
-// "filter" usado para filtrar. Perceba no exemploa acima.
+/* 
+    "?.every" para retorna 'true' todos(every) tem que ser verdadeiro, caso contrário ele retornará 'false'.
+    --
+
+    "?.some" diferente de every aqui em some(alguns), se apenas um der verdadeiro, já e o suficiente para retornar 'true'.
+    --
+*/
 
 let lista5 = [45, 4, 9, 16, 25];
 let lista6 = []
 
-// forma resumida de fazer a mesma coisa com exemplo de cima usado com 'if'.
+// o código a seguir é forma resumida de fazer a mesma coisa com exemplo acima usado com 'filter'.
 
-lista6 = lista5.every(function(item) {
+lista6 = lista5.some(function(item) {
     return (item < 20)? true : false
 });
 
@@ -81,10 +89,30 @@ let resultado4 = lista6;
 
 console.log(resultado4)
 
-/* 
-    "every" .
-    --
+// METÓDOS DE ARRAYS AULA 04
 
-    "some"
+// "?.find" usado para encontrar um item específico;
 
- */
+let lista7 = [45, 4, 9, 16, 25];
+let lista8 = []
+
+lista8 = lista7.find(function(item) {
+    return (item == 16)? true : false ;
+});
+
+let resultado5 = lista8;
+
+console.log(resultado5)
+
+// "?.findIndex" usado para mostrar a posição da 'array' que o mesmo se encontra;
+
+let lista9 = [45, 4, 9, 16, 25];
+let lista10 = []
+
+lista10 = lista9.findIndex(function(item) {
+    return (item == 16)? true : false ;
+});
+
+let resultado6 = lista10;
+
+console.log(resultado6)
