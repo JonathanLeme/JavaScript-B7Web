@@ -8,6 +8,34 @@
    "d.toString()" mesmo como se tivesse colocado só a variável.
 */
 
+/* 
+    let d = new Date();
+
+    console.log( d.toString() );
+*/
+
+/* 
+    "?.getFullYear()" retorna o ano atual;  
+
+    "?.getMonth()" retorna o mês. Lembre-se o mês começa no '0' = Janeiro;
+
+    "?.getDay()" retorna o dia da semana. Lembre-se a seman começa no '0' = domingo;
+
+    "?.getDate();" retorna o dia;
+
+    "?.getHours()" retorna as horas;
+
+    "?.getMinutes()" retorna os minutos;
+
+    "?.getSeconds()" retorna os segundos;
+
+    "?.getMilliseconds()" retorna os mili-segundos;
+
+    "?.getTime()" retorna a quantidade mili-segundos desde 1970 até a data atual;
+*/
+
 let d = new Date();
 
-console.log( d.toString() );
+let novoValor = d.getTime();
+
+console.log( novoValor );
