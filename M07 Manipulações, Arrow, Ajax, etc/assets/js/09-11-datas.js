@@ -1,3 +1,5 @@
+// DATAS AULA 01
+
 /* 
     "Apenas a variável '?'" retorna data, hora, completa. Ele puxa essa iformação do PC que está acessando;
 
@@ -13,6 +15,8 @@
 
     console.log( d.toString() );
 */
+
+// DATAS AULA 02
 
 /* 
     "?.getFullYear()" retorna o ano atual;  
@@ -34,8 +38,26 @@
     "?.getTime()" retorna a quantidade mili-segundos desde 1970 até a data atual;
 */
 
+/* 
+    let d = new Date();
+
+    let novoValor = d.getTime();
+
+    console.log( novoValor );
+*/
+
+// DATAS AULA 03
+
+/* 
+    Diferente da AULA 02 que usamos 'get' para pegar/retorna, aqui usamos 'set' para 'colocar/determinar' uma data, hora, minutos e etc. A lista é a mesma da aula anterior. Apenas trocamos 'get' por 'set'. 
+    
+    O código "d.setDate( d.getDate() + 1 )" é um exmplo de como trablhar 'set' e 'get' juntos.
+*/
+
 let d = new Date();
 
-let novoValor = d.getTime();
+d.setDate( d.getDate() + 1 );
+
+let novoValor = d;
 
 console.log( novoValor );
