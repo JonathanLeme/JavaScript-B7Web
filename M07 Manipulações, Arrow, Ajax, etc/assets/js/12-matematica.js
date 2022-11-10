@@ -12,6 +12,8 @@
     "Math.max()" retorna o maior número da lista;
 
     "Math.random()" retorna um número aleatório entre 0 e 1;
+
+    "Math.floor(Math.random() * 100)" exemplo de como usar 'random' em conjunto com 'floor'.
 */
 
 let novoValor = Math.floor(Math.random() * 100);
